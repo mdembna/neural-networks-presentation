@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <BasicModelVisualization/>
+<!--    <BasicModelVisualization/>-->
+    <CarModel />
   </div>
 </template>
 
 <script>
-import BasicModelVisualization from './components/BasicModelVisualization.vue'
+// import BasicModelVisualization from './components/BasicModelVisualization.vue'
 
+import CarModel from "@/components/CarModel/CarModel";
 export default {
   name: 'App',
   components: {
-    BasicModelVisualization
+    CarModel
+    // BasicModelVisualization
   }
 }
 </script>

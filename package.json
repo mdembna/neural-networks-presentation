@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@tensorflow/tfjs": "^3.9.0",
+    "axios": "^0.24.0",
     "chart.js": "^3.5.1",
     "core-js": "^3.6.5",
     "lodash.debounce": "^4.0.8",
